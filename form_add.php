@@ -84,7 +84,11 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Judul</label>
+
                             <input name="postTitle" class="form-control" placeholder="Judul" id="name" required data-validation-required-message="Please enter your name.">
+
+                            <input name="postTitle" type="text" class="form-control" placeholder="Judul" id="name" required data-validation-required-message="Please enter your name.">
+
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
 $host = 'localhost';
 $username = 'root';
 $password = 'root';
-$database = 'Blog';
+$database = 'blog';
 $dbms = 'mysql';
 $charset = 'utf8';
 $db = null;
@@ -15,5 +15,6 @@ try {
     catch(PDOException $e) {
     echo 'koneksi error :'.$e->getMessage();
 }
+
 
 ?>
